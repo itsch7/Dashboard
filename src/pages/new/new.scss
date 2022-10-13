@@ -1,0 +1,78 @@
+.New{
+    display: flex;
+    .newContainer{
+        flex: 3;
+        .top{
+            padding: 10px;
+            margin: 20px;
+            
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            h1{
+                font-size: 20px;
+                color: lightgray;
+            }
+        }
+        .bottom{
+            display: flex;
+            margin: 20px;
+            gap: 10px
+            ;
+            .left{
+                flex: 1;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 10px;
+            text-align: center;
+            img{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            }
+            .right{
+                flex: 3;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 10px;
+            form{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: space-around;
+                .formInput{
+                    width: 40%;
+                    input{
+                        width: 100%;
+                        border: none;
+                        padding: 5px;
+                        border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+                        
+                    }
+                    .icon{
+                        cursor: pointer;
+                    }
+                    label{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                    }
+                  
+                }
+                button{
+                    width: 150px;
+                    color: white;
+                    background-color: teal;
+                    border: rgba(66, 212, 66, 0.692);
+                    border-radius: 6px;
+                    height: 40px;
+                }
+
+            }
+
+            }
+        }
+
+    }
+}
